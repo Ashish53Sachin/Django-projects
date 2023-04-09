@@ -15,4 +15,5 @@ from django.http import HttpResponse
 def hello_world(request):
     # now = datetime.datetime.now()
     html = "<html><body>YOU ARE IN MYAPP</body></html>" 
+    # hello
     return HttpResponse(html)
