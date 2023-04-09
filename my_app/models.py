@@ -13,5 +13,6 @@ class Person(models.Model):
     age = models.IntegerField()
     email= models.EmailField()
     gender = models.CharField(max_length=1, choices=GENDER)
+    #random changes
     # class Meta:
     #     db_table="person"
